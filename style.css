@@ -1,0 +1,79 @@
+@font-face{
+	/*Custom Font*/
+	font-family:'Bad-Brush' ;
+	src: url('Bad Brush.ttf');
+}
+
+body{
+	background-color: #f6f6f6;
+}
+
+#title{
+	font-family: 'Bad-Brush';
+	letter-spacing: 7px;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 10px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px black;, 0 0 5px darkblue;
+}
+
+h2{
+	text-align: center;
+	background-color: lightblue;
+	font-family: "Lucida Console", monospace;
+	font-size: 30px;
+}
+
+p{
+	font-family: "Lucida Console", monospace;
+	font-size: 18px;
+}
+
+#img_block1{
+	margin-left: 100px;
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+}
+
+#side_block1{
+	margin-right: 50px;
+	float:right;
+	width: 60%;
+	box-sizing: border-box;
+}
+
+.clearfix{
+	clear: both;
+}
+
+#img_block2{
+	margin-left: 100px;
+	margin-top: 100px;
+	float: left;
+	width:20%;
+	box-sizing: border-box;
+}
+
+#side_block2{
+	margin-right: 50px;
+	margin-top: 100px;
+	float:right;
+	width: 60%;
+	box-sizing: border-box;
+}
+
+.album_pic{
+	text-align: center;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+}
+
+.description{
+	text-align: center;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+}
